@@ -1,0 +1,13 @@
+.star {
+  @apply absolute w-1 h-1 bg-white rounded-full;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-text {
+  background-size: 200% auto;
+  animation: text-shimmer 3s linear infinite;
+}
